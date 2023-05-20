@@ -1,0 +1,12 @@
+-Clonar un repositorio- $ git clone ssh://usuario@domain.com/repo.git
+-crear un nuevo repositorio local- $ git init
+-agregar un archivo - $ git add <file>
+-realizar un commit- $ git commit -m <mensaje(string)>
+-consultar el estado de los archivos- $ git status
+-ver las ramas del repo- $ git branch
+-crear una rama - $ git branch <name>
+-moverse entre ramas - $ git checkout <rama>
+-realizar un merge - $ git merge <rama>
+-subir commits al repo remoto - $ git push <alias> <rama>
+-bajar los cambios en el repo remoto - $ git pull
+-añadir repo remoto - $ git remote add <alias> <url>
